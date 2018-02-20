@@ -1,0 +1,5 @@
+Script started on Fri Oct 13 23:09:29 2017
+command: test -scheme DummyTestingApp -destination name=iPhone -sdk iphoneos
+test: -scheme: unexpected operator
+
+Script done on Fri Oct 13 23:09:29 2017

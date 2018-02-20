@@ -1,0 +1,265 @@
+Build settings from command line:
+    SDKROOT = iphoneos11.0
+
+=== BUILD TARGET DummyTestingApp OF PROJECT DummyTestingApp WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Validate /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app
+    cd /Users/danielpaulus/repos/DummyTestingApp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Caskroom/android-sdk/3859397,26.0.1/tools:/usr/local/Caskroom/android-sdk/3859397,26.0.1/platform-tools"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app
+
+=== BUILD TARGET DummyTestingAppUITests OF PROJECT DummyTestingApp WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET DummyTestingAppTests OF PROJECT DummyTestingApp WITH CONFIGURATION Debug ===
+Check dependencies
+
+Ld /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/DummyTestingAppTests normal arm64
+    cd /Users/danielpaulus/repos/DummyTestingApp
+    export IPHONEOS_DEPLOYMENT_TARGET=9.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Caskroom/android-sdk/3859397,26.0.1/tools:/usr/local/Caskroom/android-sdk/3859397,26.0.1/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk -L/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos -F/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -filelist /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Intermediates.noindex/DummyTestingApp.build/Debug-iphoneos/DummyTestingAppTests.build/Objects-normal/arm64/DummyTestingAppTests.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks -miphoneos-version-min=9.0 -dead_strip -bundle_loader /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/DummyTestingApp -Xlinker -object_path_lto -Xlinker /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Intermediates.noindex/DummyTestingApp.build/Debug-iphoneos/DummyTestingAppTests.build/Objects-normal/arm64/DummyTestingAppTests_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -Xlinker -add_ast_path -Xlinker /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Intermediates.noindex/DummyTestingApp.build/Debug-iphoneos/DummyTestingAppTests.build/Objects-normal/arm64/DummyTestingAppTests.swiftmodule -framework XCTest -Xlinker -dependency_info -Xlinker /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Intermediates.noindex/DummyTestingApp.build/Debug-iphoneos/DummyTestingAppTests.build/Objects-normal/arm64/DummyTestingAppTests_dependency_info.dat -o /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/DummyTestingAppTests
+
+GenerateDSYMFile /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest.dSYM /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/DummyTestingAppTests
+    cd /Users/danielpaulus/repos/DummyTestingApp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Caskroom/android-sdk/3859397,26.0.1/tools:/usr/local/Caskroom/android-sdk/3859397,26.0.1/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/DummyTestingAppTests -o /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest.dSYM
+
+CopySwiftLibs /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest
+    cd /Users/danielpaulus/repos/DummyTestingApp
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Caskroom/android-sdk/3859397,26.0.1/tools:/usr/local/Caskroom/android-sdk/3859397,26.0.1/platform-tools"
+    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk
+    builtin-swiftStdLibTool --copy --verbose --sign EC5D5961B7EB75755F95902EE8F7BC194F970EF0 --scan-executable /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/DummyTestingAppTests --scan-folder /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks --scan-folder /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/PlugIns --platform iphoneos --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks --strip-bitcode --resource-destination /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest --resource-library libswiftRemoteMirror.dylib
+Requested Swift ABI version based on scanned binaries: 5
+libswiftCore.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCore.dylib
+libswiftCoreFoundation.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreFoundation.dylib
+libswiftCoreGraphics.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreGraphics.dylib
+libswiftCoreImage.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreImage.dylib
+libswiftDarwin.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDarwin.dylib
+libswiftDispatch.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDispatch.dylib
+libswiftFoundation.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftFoundation.dylib
+libswiftMetal.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftMetal.dylib
+libswiftObjectiveC.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftObjectiveC.dylib
+libswiftQuartzCore.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftQuartzCore.dylib
+libswiftUIKit.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftUIKit.dylib
+libswiftXCTest.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftXCTest.dylib
+libswiftCoreMedia.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreMedia.dylib
+libswiftCoreAudio.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreAudio.dylib
+libswiftos.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftos.dylib
+libswiftRemoteMirror.dylib is up to date at /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/libswiftRemoteMirror.dylib
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCore.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCore.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCore.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCore.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCore.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCore.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCore.dylib is unchanged; keeping original
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDarwin.dylib
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftObjectiveC.dylib
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreImage.dylib
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDispatch.dylib
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftFoundation.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftObjectiveC.dylib'
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDarwin.dylib'
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreImage.dylib'
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftFoundation.dylib'
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDispatch.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftos.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftos.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreFoundation.dylib
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreGraphics.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreFoundation.dylib'
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreGraphics.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreImage.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreImage.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftos.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftos.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftFoundation.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftFoundation.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDispatch.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDispatch.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDarwin.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDarwin.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreFoundation.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreFoundation.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftObjectiveC.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftObjectiveC.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreGraphics.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreGraphics.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftObjectiveC.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftObjectiveC.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDarwin.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDarwin.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftObjectiveC.dylib is unchanged; keeping original
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftMetal.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftMetal.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDarwin.dylib is unchanged; keeping original
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftQuartzCore.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftQuartzCore.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftMetal.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftMetal.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftQuartzCore.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftQuartzCore.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreFoundation.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreFoundation.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftos.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftos.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreGraphics.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreGraphics.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreImage.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreImage.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreFoundation.dylib is unchanged; keeping original
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftUIKit.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftUIKit.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftos.dylib is unchanged; keeping original
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftXCTest.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftXCTest.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDispatch.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDispatch.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreGraphics.dylib is unchanged; keeping original
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreMedia.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreMedia.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreImage.dylib is unchanged; keeping original
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreAudio.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreAudio.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftUIKit.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftUIKit.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftXCTest.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftXCTest.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftDispatch.dylib is unchanged; keeping original
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreMedia.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreMedia.dylib'
+Codesigning /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreAudio.dylib
+  /usr/bin/codesign '--force' '--sign' 'EC5D5961B7EB75755F95902EE8F7BC194F970EF0' '--verbose' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreAudio.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftFoundation.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftFoundation.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftFoundation.dylib is unchanged; keeping original
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftQuartzCore.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftQuartzCore.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftQuartzCore.dylib is unchanged; keeping original
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftMetal.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftMetal.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftUIKit.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftUIKit.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftMetal.dylib is unchanged; keeping original
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftUIKit.dylib is unchanged; keeping original
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftXCTest.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftXCTest.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreAudio.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreAudio.dylib'
+Probing signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreMedia.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreMedia.dylib'
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftXCTest.dylib is unchanged; keeping original
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreAudio.dylib is unchanged; keeping original
+Code signature of /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest/Frameworks/libswiftCoreMedia.dylib is unchanged; keeping original
+
+Touch /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest
+    cd /Users/danielpaulus/repos/DummyTestingApp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Caskroom/android-sdk/3859397,26.0.1/tools:/usr/local/Caskroom/android-sdk/3859397,26.0.1/platform-tools"
+    /usr/bin/touch -c /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest
+
+CodeSign /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest
+    cd /Users/danielpaulus/repos/DummyTestingApp
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Caskroom/android-sdk/3859397,26.0.1/tools:/usr/local/Caskroom/android-sdk/3859397,26.0.1/platform-tools"
+    
+Signing Identity:     "iPhone Developer: daniel paulus (JPLWQADR34)"
+
+    /usr/bin/codesign --force --sign EC5D5961B7EB75755F95902EE8F7BC194F970EF0 --timestamp=none /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app/PlugIns/DummyTestingAppTests.xctest
+
+CodeSign /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app
+    cd /Users/danielpaulus/repos/DummyTestingApp
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Caskroom/android-sdk/3859397,26.0.1/tools:/usr/local/Caskroom/android-sdk/3859397,26.0.1/platform-tools"
+    
+Signing Identity:     "iPhone Developer: daniel paulus (JPLWQADR34)"
+
+    /usr/bin/codesign --force --sign EC5D5961B7EB75755F95902EE8F7BC194F970EF0 --preserve-metadata=identifier,entitlements,flags --timestamp=none /Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app
+/Users/danielpaulus/Library/Developer/Xcode/DerivedData/DummyTestingApp-gybyuchqfhcniagrqdqedvvgnsjf/Build/Products/Debug-iphoneos/DummyTestingApp.app: replacing existing signature
+
+2017-10-13 23:00:10.841534+0200 DummyTestingAppUITests-Runner[6441:3443535] +[CATransaction synchronize] called within transaction
+2017-10-13 23:00:10.867423+0200 DummyTestingAppUITests-Runner[6441:3443535] Running tests...
+2017-10-13 23:00:10.907434+0200 DummyTestingAppUITests-Runner[6441:3443535] refreshPreferences: HangTracerEnabled: 0
+2017-10-13 23:00:10.907488+0200 DummyTestingAppUITests-Runner[6441:3443535] refreshPreferences: HangTracerDuration: 500
+2017-10-13 23:00:10.907511+0200 DummyTestingAppUITests-Runner[6441:3443535] refreshPreferences: ActivationLoggingEnabled: 0 ActivationLoggingTaskedOffByDA:0
+2017-10-13 23:00:11.379424+0200 DummyTestingAppUITests-Runner[6441:3443535] Continuing to run tests in the background with task ID 1
+Test Suite 'All tests' started at 2017-10-13 23:00:12.456
+Test Suite 'DummyTestingAppUITests.xctest' started at 2017-10-13 23:00:12.456
+Test Suite 'DummyTestingAppUITests' started at 2017-10-13 23:00:12.457
+Test Case '-[DummyTestingAppUITests.DummyTestingAppUITests testExample]' started.
+    t =     0.00s Start Test at 2017-10-13 23:00:12.458
+    t =     0.03s Set Up
+    t =     0.03s     Open org.testobject.DummyTestingApp
+    t =     0.05s         Launch org.testobject.DummyTestingApp
+    t =     1.59s             Wait for org.testobject.DummyTestingApp to idle
+    t =     2.75s Tear Down
+Test Case '-[DummyTestingAppUITests.DummyTestingAppUITests testExample]' passed (2.952 seconds).
+Test Case '-[DummyTestingAppUITests.DummyTestingAppUITests testExample2]' started.
+    t =     0.00s Start Test at 2017-10-13 23:00:15.410
+    t =     0.02s Set Up
+    t =     0.12s     Open org.testobject.DummyTestingApp
+    t =     0.13s         Launch org.testobject.DummyTestingApp
+    t =     0.13s             Terminate org.testobject.DummyTestingApp:6444
+    t =     1.96s             Wait for org.testobject.DummyTestingApp to idle
+    t =     3.15s Tap TextField
+    t =     3.15s     Wait for org.testobject.DummyTestingApp to idle
+    t =     3.17s     Find the TextField
+    t =     3.29s         Wait for org.testobject.DummyTestingApp to idle
+    t =     3.32s     Synthesize event
+    t =     3.41s     Wait for org.testobject.DummyTestingApp to idle
+    t =     4.05s Type 'dude' into TextField
+    t =     4.05s     Wait for org.testobject.DummyTestingApp to idle
+    t =     4.30s     Find the TextField
+    t =     4.50s         Wait for org.testobject.DummyTestingApp to idle
+    t =     4.70s     Synthesize event
+    t =     4.82s     Wait for org.testobject.DummyTestingApp to idle
+    t =     4.85s Tap "Return" Button
+    t =     4.85s     Wait for org.testobject.DummyTestingApp to idle
+    t =     4.87s     Find the "Return" Button
+    t =     5.01s         Wait for org.testobject.DummyTestingApp to idle
+    t =     5.04s     Synthesize event
+    t =     5.13s     Wait for org.testobject.DummyTestingApp to idle
+    t =     5.16s Type '
+' into "dude" TextField
+    t =     5.16s     Wait for org.testobject.DummyTestingApp to idle
+    t =     5.19s     Find the "dude" TextField
+    t =     5.32s         Wait for org.testobject.DummyTestingApp to idle
+    t =     5.35s     Synthesize event
+    t =     5.37s     Wait for org.testobject.DummyTestingApp to idle
+    t =     5.39s Set device orientation to FaceUp
+    t =     5.41s Set device orientation to Portrait
+    t =     5.44s Set device orientation to FaceUp
+    t =     5.48s Tear Down
+Test Case '-[DummyTestingAppUITests.DummyTestingAppUITests testExample2]' passed (5.680 seconds).
+Test Suite 'DummyTestingAppUITests' passed at 2017-10-13 23:00:21.091.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 8.632 (8.634) seconds
+Test Suite 'DummyTestingAppUITests.xctest' passed at 2017-10-13 23:00:21.092.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 8.632 (8.636) seconds
+Test Suite 'All tests' passed at 2017-10-13 23:00:21.094.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 8.632 (8.638) seconds
+2017-10-13 23:00:25.024061+0200 DummyTestingApp[6448:3443799] [MC] Loaded MobileCoreServices.framework
+2017-10-13 23:00:25.054221+0200 DummyT** TEST SUCCEEDED **
+
+estingApp[6448:3443799] refreshPreferences: HangTracerEnabled: 0
+2017-10-13 23:00:25.054281+0200 DummyTestingApp[6448:3443799] refreshPreferences: HangTracerDuration: 500
+2017-10-13 23:00:25.054308+0200 DummyTestingApp[6448:3443799] refreshPreferences: ActivationLoggingEnabled: 0 ActivationLoggingTaskedOffByDA:0
+Test Suite 'All tests' started at 2017-10-13 23:00:25.161
+Test Suite 'DummyTestingAppTests.xctest' started at 2017-10-13 23:00:25.162
+Test Suite 'DummyTestingAppTests' started at 2017-10-13 23:00:25.163
+Test Case '-[DummyTestingAppTests.DummyTestingAppTests testExample]' started.
+Test Case '-[DummyTestingAppTests.DummyTestingAppTests testExample]' passed (0.008 seconds).
+Test Case '-[DummyTestingAppTests.DummyTestingAppTests testPerformanceExample]' started.
+/Users/danielpaulus/repos/DummyTestingApp/DummyTestingAppTests/DummyTestingAppTests.swift:33: Test Case '-[DummyTestingAppTests.DummyTestingAppTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 99.303%, values: [0.000005, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[DummyTestingAppTests.DummyTestingAppTests testPerformanceExample]' passed (0.267 seconds).
+Test Suite 'DummyTestingAppTests' passed at 2017-10-13 23:00:25.439.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.275 (0.276) seconds
+Test Suite 'DummyTestingAppTests.xctest' passed at 2017-10-13 23:00:25.440.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.275 (0.278) seconds
+Test Suite 'All tests' passed at 2017-10-13 23:00:25.441.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.275 (0.280) seconds
