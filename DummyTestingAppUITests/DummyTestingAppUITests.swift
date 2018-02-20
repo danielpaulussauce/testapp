@@ -24,7 +24,7 @@ class DummyTestingAppUITests: XCTestCase {
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        // Put tearprodown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
@@ -33,4 +33,48 @@ class DummyTestingAppUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testTheDude(){
+        NSLog("The dude abides")
+    }
+    
+    func testExample2() {
+        
+        
+        let app = XCUIApplication()
+        let textField = app.children(matching: .window).element(boundBy: 0).otherElements.children(matching: .textField).element
+        textField.tap()
+        textField.tap()
+        textField.tap()
+        textField.tap()
+        textField.tap()
+        textField.tap()
+        textField.tap()
+        textField.tap()
+        textField.tap()
+        textField.tap()
+        textField.tap()
+        textField.tap()
+        textField.typeText("dude")
+        app/*@START_MENU_TOKEN@*/.buttons["Return"]/*[[".keyboards",".buttons[\"return\"]",".buttons[\"Return\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
+        var i=0;
+        NSLog("mistermcdudseon\(i)");
+        i=i+1
+        textField.typeText("\n")
+        NSLog("mistermcdudseon\(i)");
+        i=i+1
+        XCUIDevice.shared.orientation = .faceUp
+        NSLog("mistermcdudseon\(i)");
+        i=i+1
+        XCUIDevice.shared.orientation = .portrait
+        NSLog("mistermcdudseon\(i)");
+        i=i+1
+        XCUIDevice.shared.orientation = .faceUp
+        NSLog("mistermcdudseon\(i)");
+        i=i+1
+        assert(textField.exists)
+        NSLog("mistermcdudseon\(i)");
+        i=i+1
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
 }
